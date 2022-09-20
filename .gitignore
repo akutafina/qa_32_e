@@ -4,6 +4,7 @@
 !src/**/build/
 
 .idea
+src/test/java/com/telran/homeworktemp
 
 # Ignore Gradle GUI config
 gradle-app.setting
