@@ -5,6 +5,7 @@
 
 .idea
 src/test/java/com/telran/homeworktemp
+src/test/java/com/telran/qa32e
 
 # Ignore Gradle GUI config
 gradle-app.setting
