@@ -1,0 +1,74 @@
+264  [Test worker] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/akutafina/Documents/basic_ua/qa_32_e/src/test/resources/testngUser.xml"
+433  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -67777498
+434  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null] 67165177
+434  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+439  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+439  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+440  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+442  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.afterMethod(java.lang.reflect.Method)[pri:0, instance:null] -16443546
+442  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown(org.testng.ITestResult)[pri:0, instance:null] 1639653597
+442  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+443  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+443  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+444  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+455  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -67777498
+456  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RegistrationTests.SetUp()[pri:0, instance:null] 81694955
+457  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationTests.SetUp()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+458  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+460  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationTests.SetUp()[pri:0, instance:null] ==> TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null]
+460  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+460  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null] 67165177
+461  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+461  [ForkJoinPool.commonPool-worker-2] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationTests.SetUp()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+462  [ForkJoinPool.commonPool-worker-2] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationTests.SetUp()[pri:0, instance:null] ==> TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null]
+463  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null] FROM NODE RegistrationTests.SetUp()[pri:0, instance:null]
+463  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE RegistrationTests.SetUp()[pri:0, instance:null]
+464  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+464  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+464  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.beforeMethod(java.lang.reflect.Method)[pri:0, instance:null]
+465  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+465  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               RegistrationTests.SetUp()[pri:0, instance:null]
+465  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+468  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.afterMethod(java.lang.reflect.Method)[pri:0, instance:null] -16443546
+468  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown(org.testng.ITestResult)[pri:0, instance:null] 1639653597
+468  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+469  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+469  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+470  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+474  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginPageTests.testLoginFormWithDataProviderPositive(com.telran.phonebookframework.model.User)[pri:0, instance:com.telran.phonebookframework.tests.LoginPageTests@1a8c9b58] 1893419076
+475  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginPageTests.testLoginFormWithDataProviderFromFilePositive(com.telran.phonebookframework.model.User)[pri:0, instance:com.telran.phonebookframework.tests.LoginPageTests@1a8c9b58] -1669156194
+476  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginPageTests.testLoginFormWithInvalidEmailNegative()[pri:0, instance:com.telran.phonebookframework.tests.LoginPageTests@1a8c9b58] 571179166
+476  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginPageTests.testLoginFormWithInvalidPwdNegative()[pri:0, instance:com.telran.phonebookframework.tests.LoginPageTests@1a8c9b58] 1716139933
+476  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RegistrationTests.testRegistrationPositive()[pri:0, instance:com.telran.phonebookframework.tests.RegistrationTests@467002d5] 1487183361
+476  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+477  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+477  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+478  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+524  [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithDataProviderFromFilePositive
+524  [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+8046 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithDataProviderFromFilePositive
+8046 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+9854 [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithDataProviderFromFilePositive
+9854 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+15474 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithDataProviderFromFilePositive
+15474 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+17289 [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithDataProviderPositive
+17289 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+22810 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithDataProviderPositive
+22811 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+24616 [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithDataProviderPositive
+24616 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+30237 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithDataProviderPositive
+30237 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+32042 [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithInvalidEmailNegative
+32043 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+39678 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithInvalidEmailNegative
+39678 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+41490 [Test worker] INFO  c.t.p.tests.TestBase - Start test testLoginFormWithInvalidPwdNegative
+41490 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+49166 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testLoginFormWithInvalidPwdNegative
+49167 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+51016 [Test worker] INFO  c.t.p.tests.TestBase - Start test testRegistrationPositive
+51016 [Test worker] INFO  c.t.p.tests.TestBase - ****************************
+61694 [Test worker] INFO  c.t.p.tests.TestBase - Stop test testRegistrationPositive
+61695 [Test worker] INFO  c.t.p.tests.TestBase - ****************************

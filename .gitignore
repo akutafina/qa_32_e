@@ -3,9 +3,12 @@
 **/build/
 !src/**/build/
 
+
+.DS_Store
+**/.DS_Store
+src/test/java/com/.DS_Store
+
 .idea
-src/test/java/com/telran/homeworktemp
-src/test/java/com/telran/qa32e
 
 # Ignore Gradle GUI config
 gradle-app.setting
