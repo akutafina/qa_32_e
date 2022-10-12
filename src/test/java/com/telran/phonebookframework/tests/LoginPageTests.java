@@ -38,7 +38,6 @@ public class LoginPageTests extends TestBase {
 //        Assert.assertTrue(app.getLoginPageHelper().isLoginErrorMessagePresent("Login Failed with code 400"), "Login error message is present");
 //        Assert.assertFalse(app.getMenuHelper().hasSignOutButtonPresent(), "User is not signed in");
 //    }
-//
 //    @Test
 //    public void testLoginFormWithInvalidEmailNegative() {
 //        app.goToLoginPage();
