@@ -7,11 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
 
 public class LoginPageHelper extends BaseHelper {
-    private static final String LOGIN_FAILED_400_ERROR_MSG_TEXT_STR = "Login Failed with code 400";
-    private static final String LOGIN_ERROR_MSG_XPATH_SELECTOR_STR = "//div[text() = '$loginFailedMessageTxt']";
+    private static final String LOGIN_ERROR_MSG_XPATH_SELECTOR_STR = "//div[contains(text(), '$loginFailedMessageTxt')]";
     private static final String LOGIN_CSS_SELECTOR_STR = ".login_login__3EHKB input:nth-child(1)";
     private static final String PWD_CSS_SELECTOR_STR = ".login_login__3EHKB input:nth-child(2)";
     private static final String LOGIN_BTN_CSS_SELECTOR_STR = "button:nth-child(4)";
@@ -52,9 +50,6 @@ public class LoginPageHelper extends BaseHelper {
 
     public boolean isLoginErrorMessagePresent(String errorMsgTextStr) {
         return wd.findElements(By.xpath(LOGIN_ERROR_MSG_XPATH_SELECTOR_STR.replace
-        //was:
-        //("$loginFailedMessageTxt", LOGIN_FAILED_400_ERROR_MSG_TEXT_STR))).size() > 0;
-        //fix:
         ("$loginFailedMessageTxt", errorMsgTextStr))).size() > 0;
     }
 

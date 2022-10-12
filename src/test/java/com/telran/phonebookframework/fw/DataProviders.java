@@ -40,6 +40,24 @@ public class DataProviders {
         return list.iterator();
     }
 
+    @DataProvider
+    public Iterator<Object[]> newUsersForNegativeLoginPageTestFromFile() {
+        List<Object[]> list = new ArrayList<>();
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("src/test/resources/usersForNegativeLoginPageTestFromFile.csv"));
+            String line = bufferedReader.readLine();
+            while(line!=null){
+                // line = "michael@gmail.com,ZZxcv_1!"
+                String[] lineValues =  line.split(",");
+                // lineValues = ["michael@gmail.com","ZZxcv_1!"]
+                list.add(new Object[]{ new User(lineValues[0],lineValues[1])});
+                line = bufferedReader.readLine();
+            }
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        return list.iterator();
+    }
 
     @DataProvider
     public Iterator<Object[]> newContactsForPositiveContactPageTestFromFile() {
