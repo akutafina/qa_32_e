@@ -5,12 +5,12 @@
         <classes>
             <class name="com.telran.phonebookframework.tests.LoginPageTests" >
                 <methods>
-                    <include name=".*Positive.*"/>
+                    <include name=".*testLoginFormWithDataProviderFromFilePositive.*"/>
                 </methods>
             </class>
-            <class name="com.telran.phonebookframework.tests.RegistrationTests" >
+            <class name="com.telran.phonebookframework.tests.ContactsPageTests" >
                 <methods>
-                    <include name=".*Positive.*"/>
+                    <include name=".*testAddAndRemoveContactPositiveFromFile.*"/>
                 </methods>
             </class>
         </classes>
